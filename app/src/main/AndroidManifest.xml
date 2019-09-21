@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Maps"></activity>
+        <activity android:name=".ReportingBreakdown" />
+        <activity android:name=".ReportingAccidents" />
+        <activity android:name=".ReportingBadRoad" />
+        <activity android:name=".ReportingTraffic" />
+        <activity android:name=".Report" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
